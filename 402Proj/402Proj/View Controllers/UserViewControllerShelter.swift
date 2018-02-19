@@ -9,10 +9,10 @@
 import UIKit
 
 class UserViewControllerShelter: UIViewController {
+    @IBOutlet var textView: UITextView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
 
@@ -20,6 +20,16 @@ class UserViewControllerShelter: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+//    let alert = UIAlertController(title: "AlertController Tutorial",
+//                                  message: "Submit something",
+//                                  preferredStyle: .alert)
+//
+//    let submitAction = UIAlertAction(title: "submit", style: .default, handler: { (action) -> Void in
+//        let textField = alert.textFields![0]
+//        print(textField.text!)
+//    })
+//
     
     @IBAction func showEmergencyMessage(sender: UIButton) {
         let alertController = UIAlertController(title: "You will now need to enter your pin",
@@ -29,7 +39,6 @@ class UserViewControllerShelter: UIViewController {
         present(alertController, animated: true, completion: nil)
     }
     
-
     /*
     // MARK: - Navigation
 
