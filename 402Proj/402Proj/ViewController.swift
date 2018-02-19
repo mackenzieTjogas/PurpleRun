@@ -41,7 +41,7 @@ class ViewController: UIViewController {
     @IBAction func showEmergencyMessage(sender: UIButton) {
         let alertController = UIAlertController(title: "You will now need to enter your pin",
     message: "This call cannot be stopped", preferredStyle: UIAlertControllerStyle.alert)
-        alertController.addAction(UIAlertAction(title: "Enter", style:
+        alertController.addAction(UIAlertAction(title: "Call", style:
             UIAlertActionStyle.default, handler: nil))
         present(alertController, animated: true, completion: nil)
     }
