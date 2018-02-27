@@ -1,0 +1,29 @@
+PurpleRun Project SRS Evaluation
+================================
+
+Nice job on this, a great start.
+
+Some suggestions.
+
+When thinking of requirements, try to be even more specific about what 
+you are specifying.  For a project of this magnitude and intent, you need
+a few more requirements, and a LOT more detail.  For example, in requirement
+5.3.1.1 you specify the given language menu, but don't say what languages
+will be included.  This should be in a "will" statement.  In requirement
+5.3.2.1 what information about the shelters will be provided?  How can the
+user select the given area?  How is the information displayed?  Will an
+integrated map be available to the user?
+
+These are "philosophy of requirements" issues that you can apply in a
+*general* way to nearly all the requirements in the document.  However,
+in the essence of time remaining, I'm assigning full credit to this
+deliverable, for both the initial and the final submissions.
+
+You don't have to do anything further with this document if you don't
+feel the need to do so.
+
+Deliverable D-02: 15% out of 15% = 100% which is an A-plus
+Deliverable D-05:  5% out of  5% = 100% which is an A-plus
+
+Keep up the good work!
+
