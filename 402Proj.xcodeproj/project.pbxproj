@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC7E50C4203A82D800F16ED6 /* UserViewControllerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7E50C3203A82D800F16ED6 /* UserViewControllerSettings.swift */; };
+		FC9A5FD2201EF3BB007144B5 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9A5FD1201EF3BB007144B5 /* UserViewController.swift */; };
+		FC9A5FD520200BE6007144B5 /* UserViewControllerAlly.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9A5FD420200BE6007144B5 /* UserViewControllerAlly.swift */; };
+		FC9A5FD720200D6A007144B5 /* UserViewControllerEducation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9A5FD620200D6A007144B5 /* UserViewControllerEducation.swift */; };
+		FC9A5FD920200DF8007144B5 /* UserViewControllerLegal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9A5FD820200DF8007144B5 /* UserViewControllerLegal.swift */; };
+		FC9A5FDB20200E7E007144B5 /* UserViewControllerChildren.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9A5FDA20200E7E007144B5 /* UserViewControllerChildren.swift */; };
+		FC9A5FDD20201187007144B5 /* UserViewControllerUndocumented.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9A5FDC20201187007144B5 /* UserViewControllerUndocumented.swift */; };
+		FC9A5FDF20201205007144B5 /* UserViewControllerShelter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9A5FDE20201205007144B5 /* UserViewControllerShelter.swift */; };
 		FCD70FA9201EA31C0017374D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD70FA8201EA31C0017374D /* AppDelegate.swift */; };
 		FCD70FAB201EA31C0017374D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD70FAA201EA31C0017374D /* ViewController.swift */; };
 		FCD70FAE201EA31C0017374D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD70FAC201EA31C0017374D /* Main.storyboard */; };
@@ -34,6 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC7E50C3203A82D800F16ED6 /* UserViewControllerSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewControllerSettings.swift; sourceTree = "<group>"; };
+		FC9A5FD1201EF3BB007144B5 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		FC9A5FD420200BE6007144B5 /* UserViewControllerAlly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewControllerAlly.swift; sourceTree = "<group>"; };
+		FC9A5FD620200D6A007144B5 /* UserViewControllerEducation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewControllerEducation.swift; sourceTree = "<group>"; };
+		FC9A5FD820200DF8007144B5 /* UserViewControllerLegal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewControllerLegal.swift; sourceTree = "<group>"; };
+		FC9A5FDA20200E7E007144B5 /* UserViewControllerChildren.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewControllerChildren.swift; sourceTree = "<group>"; };
+		FC9A5FDC20201187007144B5 /* UserViewControllerUndocumented.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewControllerUndocumented.swift; sourceTree = "<group>"; };
+		FC9A5FDE20201205007144B5 /* UserViewControllerShelter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewControllerShelter.swift; sourceTree = "<group>"; };
 		FCD70FA5201EA31C0017374D /* 402Proj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 402Proj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCD70FA8201EA31C0017374D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCD70FAA201EA31C0017374D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +90,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC9A5FD3201EF3C5007144B5 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FC9A5FD1201EF3BB007144B5 /* UserViewController.swift */,
+				FC9A5FD420200BE6007144B5 /* UserViewControllerAlly.swift */,
+				FC9A5FD620200D6A007144B5 /* UserViewControllerEducation.swift */,
+				FC9A5FD820200DF8007144B5 /* UserViewControllerLegal.swift */,
+				FC9A5FDC20201187007144B5 /* UserViewControllerUndocumented.swift */,
+				FC9A5FDA20200E7E007144B5 /* UserViewControllerChildren.swift */,
+				FC9A5FDE20201205007144B5 /* UserViewControllerShelter.swift */,
+				FC7E50C3203A82D800F16ED6 /* UserViewControllerSettings.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 		FCD70F9C201EA31C0017374D = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +128,7 @@
 		FCD70FA7201EA31C0017374D /* 402Proj */ = {
 			isa = PBXGroup;
 			children = (
+				FC9A5FD3201EF3C5007144B5 /* View Controllers */,
 				FCD70FA8201EA31C0017374D /* AppDelegate.swift */,
 				FCD70FAA201EA31C0017374D /* ViewController.swift */,
 				FCD70FAC201EA31C0017374D /* Main.storyboard */,
@@ -259,8 +291,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC7E50C4203A82D800F16ED6 /* UserViewControllerSettings.swift in Sources */,
+				FC9A5FDD20201187007144B5 /* UserViewControllerUndocumented.swift in Sources */,
 				FCD70FAB201EA31C0017374D /* ViewController.swift in Sources */,
+				FC9A5FD2201EF3BB007144B5 /* UserViewController.swift in Sources */,
+				FC9A5FDF20201205007144B5 /* UserViewControllerShelter.swift in Sources */,
 				FCD70FA9201EA31C0017374D /* AppDelegate.swift in Sources */,
+				FC9A5FD920200DF8007144B5 /* UserViewControllerLegal.swift in Sources */,
+				FC9A5FD520200BE6007144B5 /* UserViewControllerAlly.swift in Sources */,
+				FC9A5FD720200D6A007144B5 /* UserViewControllerEducation.swift in Sources */,
+				FC9A5FDB20200E7E007144B5 /* UserViewControllerChildren.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
