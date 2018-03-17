@@ -7,11 +7,14 @@
 //
 
 import UIKit
-//import CoreLocation
-//import Alamofire
-//import SwiftyJSON
+// import CoreLocation
+// import Alamofire
+// import SwiftyJSON
 
 class ViewController: UIViewController {
+    
+//    let APP_ID = ""
+//    let API_URL = "" 
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,12 +44,24 @@ class ViewController: UIViewController {
         performSegue(withIdentifier: "testSegue", sender: self)
     }
     
+    func makeCall(phoneNum: String) {
+        if let url = URL(string: "tel://\(phoneNum)"), UIApplication.shared.canOpenURL(url) {
+            if #available(iOS 10, *) {
+                UIApplication.shared.open(url)
+            } else {
+                UIApplication.shared.openURL(url)
+            }
+        }
+    }
+    
     @IBAction func showEmergencyMessage(sender: UIButton) {
-        let alertController = UIAlertController(title: "You will now need to enter your pin",
-    message: "This call cannot be stopped", preferredStyle: UIAlertControllerStyle.alert)
-        alertController.addAction(UIAlertAction(title: "Call", style:
-            UIAlertActionStyle.default, handler: nil))
-        present(alertController, animated: true, completion: nil)
+        var phoneNumber : String = "6508085042"
+        makeCall(phoneNum : phoneNumber)
+//        let alertController = UIAlertController(title: "You will now need to enter your pin",
+//    message: "This call cannot be stopped", preferredStyle: UIAlertControllerStyle.alert)
+//        alertController.addAction(UIAlertAction(title: "Call", style:
+//            UIAlertActionStyle.default, handler: nil))
+//        present(alertController, animated: true, completion: nil)
     }
 
 
