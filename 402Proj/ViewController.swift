@@ -55,7 +55,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func showEmergencyMessage(sender: UIButton) {
-        var phoneNumber : String = "6508085042"
+        let phoneNumber : String = "911"
         makeCall(phoneNum : phoneNumber)
 //        let alertController = UIAlertController(title: "You will now need to enter your pin",
 //    message: "This call cannot be stopped", preferredStyle: UIAlertControllerStyle.alert)
