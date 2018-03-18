@@ -21,13 +21,29 @@ class UserViewControllerSettings: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func showEmergencyMessage(sender: UIButton) {
-        let alertController = UIAlertController(title: "You will now need to enter your pin",
-                                                message: "This call cannot be stopped", preferredStyle: UIAlertControllerStyle.alert)
-        alertController.addAction(UIAlertAction(title: "Enter", style:
-            UIAlertActionStyle.default, handler: nil))
-        present(alertController, animated: true, completion: nil)
+    func makeCall(phoneNum: String) {
+        if let url = URL(string: "tel://\(phoneNum)"), UIApplication.shared.canOpenURL(url) {
+            if #available(iOS 10, *) {
+                UIApplication.shared.open(url)
+            } else {
+                UIApplication.shared.openURL(url)
+            }
+        }
     }
+    
+    @IBAction func showEmergencyMessage(sender: UIButton) {
+        let phoneNumber : String = "911"
+        makeCall(phoneNum : phoneNumber)
+    }
+    
+    //    @IBAction func showEmergencyMessage(sender: UIButton) {
+    //        let alertController = UIAlertController(title: "You will now need to enter your pin",
+    //                                                message: "This call cannot be stopped", preferredStyle: UIAlertControllerStyle.alert)
+    //        alertController.addAction(UIAlertAction(title: "Enter", style:
+    //            UIAlertActionStyle.default, handler: nil))
+    //        present(alertController, animated: true, completion: nil)
+    //    }
+    
     
     
 
