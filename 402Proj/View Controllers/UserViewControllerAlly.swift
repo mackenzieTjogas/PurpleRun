@@ -9,6 +9,7 @@
 // This will call the APIS and return information about being an ally 
 
 import UIKit
+import TTTAttributedLabel
 
 class UserViewControllerAlly: UIViewController {
 
@@ -23,6 +24,22 @@ class UserViewControllerAlly: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+//    func linkedText() {
+//        TTTAttributedLabel *attributedLabel = [[TTTAttributedLabel alloc] initWithFrame:CGRectZero]
+//
+//        NSAttributedString *attString = [[NSAttributedString alloc] initWithString:@"Tom Bombadil"
+//            attributes:@{
+//            (id)kCTForegroundColorAttributeName : (id)[UIColor redColor].CGColor,
+//            NSFontAttributeName : [UIFont boldSystemFontOfSize:16],
+//            NSKernAttributeName : [NSNull null],
+//            (id)kTTTBackgroundFillColorAttributeName : (id)[UIColor greenColor].CGColor
+//            }];
+//
+//        // The attributed string is directly set, without inheriting any other text
+//        // properties of the label.
+//        attributedLabel.text = attString
+//    }
+
     func makeCall(phoneNum: String) {
         if let url = URL(string: "tel://\(phoneNum)"), UIApplication.shared.canOpenURL(url) {
             if #available(iOS 10, *) {
