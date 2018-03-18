@@ -7,9 +7,9 @@
 //
 
 import UIKit
-// import CoreLocation
-// import Alamofire
-// import SwiftyJSON
+ import CoreLocation
+ import Alamofire
+ import SwiftyJSON
 
 class ViewController: UIViewController {
     
@@ -57,11 +57,6 @@ class ViewController: UIViewController {
     @IBAction func showEmergencyMessage(sender: UIButton) {
         let phoneNumber : String = "911"
         makeCall(phoneNum : phoneNumber)
-//        let alertController = UIAlertController(title: "You will now need to enter your pin",
-//    message: "This call cannot be stopped", preferredStyle: UIAlertControllerStyle.alert)
-//        alertController.addAction(UIAlertAction(title: "Call", style:
-//            UIAlertActionStyle.default, handler: nil))
-//        present(alertController, animated: true, completion: nil)
     }
 
 
