@@ -7,8 +7,15 @@
 //
 
 import UIKit
+import Alamofire
+import SwiftyJSON
 
 class UserViewControllerSettings: UIViewController {
+    
+    let LANGUAGE_API = "http://frengly.com/frengly/data/translateREST"
+    
+    // make this model file: 
+    // let translatedLanguage = LanguageDataModel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
