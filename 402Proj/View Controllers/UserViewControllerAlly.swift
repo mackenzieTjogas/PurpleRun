@@ -9,7 +9,8 @@
 // This will call the APIS and return information about being an ally 
 
 import UIKit
-import TTTAttributedLabel
+// import TTTAttributedLabel
+// import ActiveLabel
 
 class UserViewControllerAlly: UIViewController {
 
@@ -24,22 +25,18 @@ class UserViewControllerAlly: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-//    func linkedText() {
-//        TTTAttributedLabel *attributedLabel = [[TTTAttributedLabel alloc] initWithFrame:CGRectZero]
+    
+//    let label = ActiveLabel()
 //
-//        NSAttributedString *attString = [[NSAttributedString alloc] initWithString:@"Tom Bombadil"
-//            attributes:@{
-//            (id)kCTForegroundColorAttributeName : (id)[UIColor redColor].CGColor,
-//            NSFontAttributeName : [UIFont boldSystemFontOfSize:16],
-//            NSKernAttributeName : [NSNull null],
-//            (id)kTTTBackgroundFillColorAttributeName : (id)[UIColor greenColor].CGColor
-//            }];
-//
-//        // The attributed string is directly set, without inheriting any other text
-//        // properties of the label.
-//        attributedLabel.text = attString
+//    label.numberOfLines = 0
+//    label.enabledTypes = [.mention, .hashtag, .url]
+//    label.text = "This is a post with #hashtags and a @userhandle."
+//    label.textColor = .black
+//    label.handleHashtagTap { hashtag in
+//        print("Success. You just tapped the \(hashtag) hashtag")
 //    }
-
+    
+    
     func makeCall(phoneNum: String) {
         if let url = URL(string: "tel://\(phoneNum)"), UIApplication.shared.canOpenURL(url) {
             if #available(iOS 10, *) {
