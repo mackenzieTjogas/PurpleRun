@@ -14,9 +14,11 @@ class UserViewControllerSettings: UIViewController {
     
     let LANGUAGE_API = "http://frengly.com/frengly/data/translateREST"
     
-    // make this model file: 
-    // let translatedLanguage = LanguageDataModel()
+    let translatedLanguage = LanguageDataModel()
 
+    // To display the current language
+    @IBOutlet weak var cityLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -27,6 +29,7 @@ class UserViewControllerSettings: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
     
     func makeCall(phoneNum: String) {
         if let url = URL(string: "tel://\(phoneNum)"), UIApplication.shared.canOpenURL(url) {

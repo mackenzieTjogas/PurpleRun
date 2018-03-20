@@ -10,6 +10,7 @@
 		1693B3E649EFC99F07BC27DB /* Pods_402ProjUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B24F80721DA7ABA6E64AAA1 /* Pods_402ProjUITests.framework */; };
 		41C0F7630029C224390DB654 /* Pods_402Proj.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54342DEEF16BAA10FF651554 /* Pods_402Proj.framework */; };
 		4A72B1974F2259A47DB5F35B /* Pods_402ProjTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61B0683DD0A5FF65843AEEFA /* Pods_402ProjTests.framework */; };
+		FC13F2CD206098B400CB354E /* LanguageDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC13F2CC206098B400CB354E /* LanguageDataModel.swift */; };
 		FC7E50C4203A82D800F16ED6 /* UserViewControllerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7E50C3203A82D800F16ED6 /* UserViewControllerSettings.swift */; };
 		FC9A5FD2201EF3BB007144B5 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9A5FD1201EF3BB007144B5 /* UserViewController.swift */; };
 		FC9A5FD520200BE6007144B5 /* UserViewControllerAlly.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9A5FD420200BE6007144B5 /* UserViewControllerAlly.swift */; };
@@ -54,6 +55,7 @@
 		6B66CB3333E97DEC9FEC5F3D /* Pods-402ProjTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-402ProjTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-402ProjTests/Pods-402ProjTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7FE9B798462890E2FAF14034 /* Pods-402Proj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-402Proj.release.xcconfig"; path = "Pods/Target Support Files/Pods-402Proj/Pods-402Proj.release.xcconfig"; sourceTree = "<group>"; };
 		8D2265F3AF3B0DABB2D133C3 /* Pods-402ProjUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-402ProjUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-402ProjUITests/Pods-402ProjUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC13F2CC206098B400CB354E /* LanguageDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageDataModel.swift; sourceTree = "<group>"; };
 		FC7E50C3203A82D800F16ED6 /* UserViewControllerSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewControllerSettings.swift; sourceTree = "<group>"; };
 		FC9A5FD1201EF3BB007144B5 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		FC9A5FD420200BE6007144B5 /* UserViewControllerAlly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewControllerAlly.swift; sourceTree = "<group>"; };
@@ -128,6 +130,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FC13F2CB206096B600CB354E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FC13F2CC206098B400CB354E /* LanguageDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		FC9A5FD3201EF3C5007144B5 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +178,7 @@
 		FCD70FA7201EA31C0017374D /* 402Proj */ = {
 			isa = PBXGroup;
 			children = (
+				FC13F2CB206096B600CB354E /* Model */,
 				FC9A5FD3201EF3C5007144B5 /* View Controllers */,
 				FCD70FA8201EA31C0017374D /* AppDelegate.swift */,
 				FCD70FAA201EA31C0017374D /* ViewController.swift */,
@@ -505,6 +516,7 @@
 				FC9A5FD920200DF8007144B5 /* UserViewControllerLegal.swift in Sources */,
 				FC9A5FD520200BE6007144B5 /* UserViewControllerAlly.swift in Sources */,
 				FC9A5FD720200D6A007144B5 /* UserViewControllerEducation.swift in Sources */,
+				FC13F2CD206098B400CB354E /* LanguageDataModel.swift in Sources */,
 				FC9A5FDB20200E7E007144B5 /* UserViewControllerChildren.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
