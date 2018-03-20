@@ -25,17 +25,11 @@ class UserViewControllerAlly: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    
-//    let label = ActiveLabel()
-//
-//    label.numberOfLines = 0
-//    label.enabledTypes = [.mention, .hashtag, .url]
-//    label.text = "This is a post with #hashtags and a @userhandle."
-//    label.textColor = .black
-//    label.handleHashtagTap { hashtag in
-//        print("Success. You just tapped the \(hashtag) hashtag")
-//    }
-    
+    @IBAction func exampleButton(sender: AnyObject) {
+        if let url = URL(string: "https://ncadv.org/dynamics-of-abuse") {
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+    }
     
     func makeCall(phoneNum: String) {
         if let url = URL(string: "tel://\(phoneNum)"), UIApplication.shared.canOpenURL(url) {

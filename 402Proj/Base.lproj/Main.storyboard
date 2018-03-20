@@ -279,13 +279,14 @@
                                     <action selector="showEmergencyMessageWithSender:" destination="bwa-Rd-DbG" eventType="touchUpInside" id="vru-iB-yKu"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="{Educate yourself} link https://ncadv.org/dynamics-of-abuse" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fkj-fq-fnv">
-                                <rect key="frame" x="16" y="169" width="461" height="72"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5pF-83-JLx">
+                                <rect key="frame" x="110" y="203" width="154" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.078697080259999996" green="0.218628394" blue="0.39677784970000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <state key="normal" title="Educate yourself here "/>
+                                <connections>
+                                    <action selector="exampleButtonWithSender:" destination="bwa-Rd-DbG" eventType="touchUpInside" id="mEq-5V-VVy"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.75195005439999996" green="0.5927631391" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="afC-Yy-Q3b"/>
