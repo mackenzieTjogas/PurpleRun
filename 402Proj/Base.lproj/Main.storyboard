@@ -607,6 +607,14 @@
                                 <color key="textColor" red="0.9777382952" green="1" blue="0.96475370189999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rGm-IF-6fR">
+                                <rect key="frame" x="106" y="429" width="74" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Learn here"/>
+                                <connections>
+                                    <action selector="exampleButtonWithSender:" destination="wve-DX-sgw" eventType="touchUpInside" id="TGv-Jq-OSi"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.75195005439999996" green="0.5927631391" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="2Np-Vn-8tv"/>

@@ -21,6 +21,12 @@ class UserViewControllerLegal: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func exampleButton(sender: AnyObject) {
+        if let url = URL(string: "https://www.womenslaw.org/laws") {
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+    }
+    
     func makeCall(phoneNum: String) {
         if let url = URL(string: "tel://\(phoneNum)"), UIApplication.shared.canOpenURL(url) {
             if #available(iOS 10, *) {
