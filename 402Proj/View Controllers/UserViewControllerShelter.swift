@@ -21,6 +21,12 @@ class UserViewControllerShelter: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func exampleButton(sender: AnyObject) {
+        if let url = URL(string: "https://www.domesticshelters.org/") {
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+    }
+    
 //    let alert = UIAlertController(title: "AlertController Tutorial",
 //                                  message: "Submit something",
 //                                  preferredStyle: .alert)
