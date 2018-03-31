@@ -330,6 +330,16 @@
                                 <color key="textColor" red="0.98224507370000003" green="0.96316895940000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sHE-wQ-mTo">
+                                <rect key="frame" x="16" y="579" width="36" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="📞"/>
+                                <connections>
+                                    <action selector="showEmergencyMessageWithSender:" destination="RHF-XK-td0" eventType="touchUpInside" id="Ehf-jU-0c6"/>
+                                    <action selector="showEmergencyMessageWithSender:" destination="bwa-Rd-DbG" eventType="touchUpInside" id="VwF-VT-Rc6"/>
+                                    <action selector="showEmergencyMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="voc-hS-hQX"/>
+                                </connections>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Physical Abuse" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZWM-ce-TpB">
                                 <rect key="frame" x="16" y="220" width="116" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -372,16 +382,20 @@
                                 <color key="textColor" red="0.9777382952" green="1" blue="0.96475370189999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sHE-wQ-mTo">
-                                <rect key="frame" x="16" y="579" width="36" height="47"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="includes the physical assault" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uvp-iG-IYh">
+                                <rect key="frame" x="140" y="220" width="219" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="📞"/>
-                                <connections>
-                                    <action selector="showEmergencyMessageWithSender:" destination="RHF-XK-td0" eventType="touchUpInside" id="Ehf-jU-0c6"/>
-                                    <action selector="showEmergencyMessageWithSender:" destination="bwa-Rd-DbG" eventType="touchUpInside" id="VwF-VT-Rc6"/>
-                                    <action selector="showEmergencyMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="voc-hS-hQX"/>
-                                </connections>
-                            </button>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VrC-de-GaK">
+                                <rect key="frame" x="16" y="261" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.75195005439999996" green="0.5927631391" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="uxW-b3-4ZU"/>
