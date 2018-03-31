@@ -42,6 +42,38 @@ class UserViewControllerEducation: UIViewController {
         }
     }
     
+    @IBAction func exampleButton2(sender: AnyObject) {
+        if let url = URL(string: "https://www.speakcdn.com/assets/2497/domestic_violence_and_psychological_abuse_ncadv.pdf") {
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+    }
+    
+    @IBAction func exampleButton3(sender: AnyObject) {
+        if let url = URL(string: "https://www.speakcdn.com/assets/2497/domestic_violence_and_economic_abuse_ncadv.pdf") {
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+    }
+    
+//    @IBAction func exampleButton4(sender: AnyObject) {
+//        if let url = URL(string: "https://www.speakcdn.com/assets/2497/domestic_violence_and_economic_abuse_ncadv.pdf") {
+//            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+//        }
+//    }
+    
+//    @IBAction func exampleButton5(sender: AnyObject) {
+//        if let url = URL(string: "https://www.speakcdn.com/assets/2497/domestic_violence_and_economic_abuse_ncadv.pdf") {
+//            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+//        }
+//    }
+    
+    @IBAction func exampleButton6(sender: AnyObject) {
+        if let url = URL(string: "https://www.speakcdn.com/assets/2497/domestic_violence_and_stalking_ncadv.pdf") {
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+    }
+    
+
+    
 
     /*
     // MARK: - Navigation
