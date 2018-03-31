@@ -36,6 +36,12 @@ class UserViewControllerEducation: UIViewController {
         makeCall(phoneNum : phoneNumber)
     }
     
+    @IBAction func exampleButton(sender: AnyObject) {
+        if let url = URL(string: "https://www.speakcdn.com/assets/2497/domestic_violence_and_physical_abuse_ncadv.pdf") {
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+    }
+    
 
     /*
     // MARK: - Navigation
