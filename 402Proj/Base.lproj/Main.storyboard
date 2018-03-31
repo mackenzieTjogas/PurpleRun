@@ -42,9 +42,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rFH-Ah-jTd">
-                                <rect key="frame" x="169" y="184" width="36" height="30"/>
+                                <rect key="frame" x="97" y="171" width="176" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="enter"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Enter PurpleRun">
+                                    <color key="titleColor" red="0.96615367060000001" green="1" blue="0.98413039859999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="Af3-FV-K9j" kind="show" id="dOA-Gb-wIr"/>
                                 </connections>
