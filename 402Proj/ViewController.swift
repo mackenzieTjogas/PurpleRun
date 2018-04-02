@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    // removed the below button: 
+    // removed the below button:
 //    @IBAction func showMessage(sender: UIButton) {
 //        let alertController = UIAlertController(title: "You will now need to enter your pin",
 //    message: "You will only get 2 trys", preferredStyle: UIAlertControllerStyle.alert)
