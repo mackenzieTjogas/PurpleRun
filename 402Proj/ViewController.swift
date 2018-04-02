@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import CoreLocation
+// import CoreLocation
 import Alamofire
 import SwiftyJSON
 

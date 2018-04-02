@@ -13,15 +13,20 @@ import SwiftyJSON
 class UserViewControllerSettings: UIViewController {
     
     let LANGUAGE_API = "http://frengly.com/frengly/data/translateREST"
+//    Alamofire.request(LANGUAGE_API)
+//    .responseJSON { response in
+//    // ...
+//    }
     
-    let translatedLanguage = LanguageDataModel()
+    // let translatedLanguage = LanguageDataModel()
 
     // To display the current language
-    @IBOutlet weak var cityLabel: UILabel!
+    // @IBOutlet weak var languageLabel: UILabel!
+    // use:
+    // @IBOutlet weak var language: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
 
@@ -45,16 +50,6 @@ class UserViewControllerSettings: UIViewController {
         let phoneNumber : String = "911"
         makeCall(phoneNum : phoneNumber)
     }
-    
-    //    @IBAction func showEmergencyMessage(sender: UIButton) {
-    //        let alertController = UIAlertController(title: "You will now need to enter your pin",
-    //                                                message: "This call cannot be stopped", preferredStyle: UIAlertControllerStyle.alert)
-    //        alertController.addAction(UIAlertAction(title: "Enter", style:
-    //            UIAlertActionStyle.default, handler: nil))
-    //        present(alertController, animated: true, completion: nil)
-    //    }
-    
-    
     
 
     /*
