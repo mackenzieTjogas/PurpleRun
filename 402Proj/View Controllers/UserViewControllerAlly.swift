@@ -13,7 +13,6 @@ import UIKit
 // import ActiveLabel
 
 class UserViewControllerAlly: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
 
