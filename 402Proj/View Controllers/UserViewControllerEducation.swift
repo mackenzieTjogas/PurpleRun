@@ -54,17 +54,17 @@ class UserViewControllerEducation: UIViewController {
         }
     }
     
-//    @IBAction func exampleButton4(sender: AnyObject) {
-//        if let url = URL(string: "https://www.speakcdn.com/assets/2497/domestic_violence_and_economic_abuse_ncadv.pdf") {
-//            UIApplication.shared.open(url, options: [:], completionHandler: nil)
-//        }
-//    }
+    @IBAction func exampleButton4(sender: AnyObject) {
+        if let url = URL(string: "https://www.betterhelp.com/advice/abuse/would-you-recognize-verbal-abuse-heres-what-you-need-to-know/") {
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+    }
     
-//    @IBAction func exampleButton5(sender: AnyObject) {
-//        if let url = URL(string: "https://www.speakcdn.com/assets/2497/domestic_violence_and_economic_abuse_ncadv.pdf") {
-//            UIApplication.shared.open(url, options: [:], completionHandler: nil)
-//        }
-//    }
+    @IBAction func exampleButton5(sender: AnyObject) {
+        if let url = URL(string: "https://www.domesticshelters.org/domestic-violence-articles-information/when-abusers-use-sexual-abuse-to-control#.WsrJUZPwbaY") {
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+    }
     
     @IBAction func exampleButton6(sender: AnyObject) {
         if let url = URL(string: "https://www.speakcdn.com/assets/2497/domestic_violence_and_stalking_ncadv.pdf") {
