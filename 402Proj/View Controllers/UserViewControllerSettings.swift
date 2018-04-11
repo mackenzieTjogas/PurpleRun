@@ -35,6 +35,12 @@ class UserViewControllerSettings: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func exampleButton(sender: AnyObject) {
+        if let url = URL(string: "https://support.apple.com/en-us/HT201265") {
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+    }
+    
     
     func makeCall(phoneNum: String) {
         if let url = URL(string: "tel://\(phoneNum)"), UIApplication.shared.canOpenURL(url) {
