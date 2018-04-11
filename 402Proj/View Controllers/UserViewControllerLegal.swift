@@ -42,6 +42,11 @@ class UserViewControllerLegal: UIViewController {
         makeCall(phoneNum : phoneNumber)
     }
     
+    @IBAction func showEmergencyMessage2(sender: UIButton) {
+        let phoneNumber : String = "18007997233"
+        makeCall(phoneNum : phoneNumber)
+    }
+    
 
     /*
     // MARK: - Navigation
