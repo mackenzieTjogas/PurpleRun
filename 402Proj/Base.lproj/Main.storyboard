@@ -775,19 +775,6 @@ future earning potential </string>
                                 <color key="textColor" red="0.98224507370000003" green="0.96316895940000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t4E-co-l7p">
-                                <rect key="frame" x="30" y="570" width="36" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="📞"/>
-                                <connections>
-                                    <action selector="showEmergencyMessageWithSender:" destination="RHF-XK-td0" eventType="touchUpInside" id="9ny-SG-blB"/>
-                                    <action selector="showEmergencyMessageWithSender:" destination="Z9X-ue-xrM" eventType="touchUpInside" id="BcR-IG-ong"/>
-                                    <action selector="showEmergencyMessageWithSender:" destination="wve-DX-sgw" eventType="touchUpInside" id="Ebo-89-UMM"/>
-                                    <action selector="showEmergencyMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rBH-Il-PbH"/>
-                                    <action selector="showEmergencyMessageWithSender:" destination="efm-as-kgu" eventType="touchUpInside" id="wUk-ot-ysO"/>
-                                    <action selector="showEmergencyMessageWithSender:" destination="bwa-Rd-DbG" eventType="touchUpInside" id="xL9-hP-0yg"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9wn-kh-Br2">
                                 <rect key="frame" x="109" y="195" width="123" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -883,6 +870,19 @@ future earning potential </string>
                                 <state key="normal" title="Additional Information"/>
                                 <connections>
                                     <action selector="exampleButton3WithSender:" destination="Z9X-ue-xrM" eventType="touchUpInside" id="kmP-Eq-xc4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t4E-co-l7p">
+                                <rect key="frame" x="16" y="577" width="36" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="📞"/>
+                                <connections>
+                                    <action selector="showEmergencyMessageWithSender:" destination="RHF-XK-td0" eventType="touchUpInside" id="9ny-SG-blB"/>
+                                    <action selector="showEmergencyMessageWithSender:" destination="Z9X-ue-xrM" eventType="touchUpInside" id="BcR-IG-ong"/>
+                                    <action selector="showEmergencyMessageWithSender:" destination="wve-DX-sgw" eventType="touchUpInside" id="Ebo-89-UMM"/>
+                                    <action selector="showEmergencyMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rBH-Il-PbH"/>
+                                    <action selector="showEmergencyMessageWithSender:" destination="efm-as-kgu" eventType="touchUpInside" id="wUk-ot-ysO"/>
+                                    <action selector="showEmergencyMessageWithSender:" destination="bwa-Rd-DbG" eventType="touchUpInside" id="xL9-hP-0yg"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -995,29 +995,29 @@ future earning potential </string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="alcohol and substance abuse " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pw7-ya-J5s">
-                                <rect key="frame" x="36" y="478" width="227" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-alcohol and substance abuse " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pw7-ya-J5s">
+                                <rect key="frame" x="36" y="478" width="235" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="cancer, depression, and diabetes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sSW-Qx-2fi">
-                                <rect key="frame" x="36" y="507" width="253" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-cancer, depression, and diabetes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sSW-Qx-2fi">
+                                <rect key="frame" x="36" y="507" width="260" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="poor performance in school " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2hK-2V-Iuo">
-                                <rect key="frame" x="36" y="536" width="216" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-poor performance in school " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2hK-2V-Iuo">
+                                <rect key="frame" x="36" y="536" width="224" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="early death " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bh9-yc-qae">
-                                <rect key="frame" x="36" y="565" width="90" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-early death " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bh9-yc-qae">
+                                <rect key="frame" x="36" y="565" width="98" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1083,7 +1083,7 @@ future earning potential </string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="about the laws in your state." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YIt-MJ-Ncs">
-                                <rect key="frame" x="112" y="346" width="286" height="36"/>
+                                <rect key="frame" x="104" y="346" width="286" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.9777382952" green="1" blue="0.96475370189999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1104,7 +1104,7 @@ future earning potential </string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rGm-IF-6fR">
-                                <rect key="frame" x="16" y="340" width="94" height="48"/>
+                                <rect key="frame" x="10" y="340" width="94" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name=".SFNSText" family=".SF NS Text" pointSize="17"/>
                                 <state key="normal" title="Learn here">
@@ -1112,17 +1112,6 @@ future earning potential </string>
                                 </state>
                                 <connections>
                                     <action selector="exampleButtonWithSender:" destination="wve-DX-sgw" eventType="touchUpInside" id="TGv-Jq-OSi"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eI9-ya-Vj0">
-                                <rect key="frame" x="16" y="573" width="36" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="📞"/>
-                                <connections>
-                                    <action selector="showEmergencyMessageWithSender:" destination="RHF-XK-td0" eventType="touchUpInside" id="PVW-NC-xPY"/>
-                                    <action selector="showEmergencyMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TRS-eM-cvz"/>
-                                    <action selector="showEmergencyMessageWithSender:" destination="wve-DX-sgw" eventType="touchUpInside" id="dXH-IJ-mLa"/>
-                                    <action selector="showEmergencyMessageWithSender:" destination="bwa-Rd-DbG" eventType="touchUpInside" id="maq-Ld-Pee"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="adf-Fv-Iw0">
@@ -1139,6 +1128,17 @@ future earning potential </string>
                                 <state key="normal" title="Call now."/>
                                 <connections>
                                     <action selector="showEmergencyMessage2WithSender:" destination="wve-DX-sgw" eventType="touchUpInside" id="jsz-Dr-kaB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eI9-ya-Vj0">
+                                <rect key="frame" x="16" y="571" width="36" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="📞"/>
+                                <connections>
+                                    <action selector="showEmergencyMessageWithSender:" destination="RHF-XK-td0" eventType="touchUpInside" id="PVW-NC-xPY"/>
+                                    <action selector="showEmergencyMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TRS-eM-cvz"/>
+                                    <action selector="showEmergencyMessageWithSender:" destination="wve-DX-sgw" eventType="touchUpInside" id="dXH-IJ-mLa"/>
+                                    <action selector="showEmergencyMessageWithSender:" destination="bwa-Rd-DbG" eventType="touchUpInside" id="maq-Ld-Pee"/>
                                 </connections>
                             </button>
                         </subviews>
